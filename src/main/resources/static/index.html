@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 4 - CP2 Deployment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <my-table
+        :columns="columns"
+        :rows="rows"
+        :active-class="activeClass"
+        @sort-field="sortMovies"
+      ></my-table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
